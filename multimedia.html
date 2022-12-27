@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multimedia con HTML</title>
+  </head>
+  <body>
+    <!--src: cual es la url de la imagen que tenemos que renderizar
+        alt: texto alternativo en caso de la imagen no se pueda renderizar-->
+    <!--Mejores practicas es guardar las imagenes en una carpeta-->
+    <h3>Imagenes</h3>
+    <img
+      src="imagenes/logohtml.webp"
+      alt="Logo HTML5"
+      width="300"
+      height="300"
+    />
+    <!--Videos y audios-->
+    <h3>Videos</h3>
+    <!--3 Existen 3 tipos de videos
+    1. web7
+    2. mp4
+    3. ogg-->
+    <video width="300" height="300" controls muted loop>
+        <source src="Diagramas de flujo.mp4" type="video/mp4 ">
+    </video>
+    <!--mp3, wav ogg-->
+    <h3>Audio</h3>
+    <audio controls loop>
+        <source src="Senpai -「Shangri-La」.mp3" type="audio/mp3">
+    </audio>
+  </body>
+</html>
